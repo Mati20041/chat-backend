@@ -1,6 +1,7 @@
 module.exports = {
   apps: [
     {
+      name: 'chat-backend',
       script: 'dist/main.js',
       watch: '.',
       env: {
