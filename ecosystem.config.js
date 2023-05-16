@@ -3,6 +3,9 @@ module.exports = {
     {
       script: 'dist/main.js',
       watch: '.',
+      env: {
+        APP_PORT: 20213,
+      },
     },
   ],
 
